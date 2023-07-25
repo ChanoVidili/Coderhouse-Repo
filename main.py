@@ -15,6 +15,16 @@
 #               // Para linkear el repositorio remoto con el local que ya teníamos.
 # git branch -M main    // Cada vez que github cree una rama que llame master la cambie por main (recomendación de github)
 
+# …or create a new repository on the command line
+# echo "# Prueba" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/ChanoVidili/Prueba.git
+# git push -u origin main
+
+# git push      // Luego solo git push sin origin para subir al main del repo
 
 def imprimir_hola():
     print("HOLA")
